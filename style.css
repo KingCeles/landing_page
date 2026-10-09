@@ -1,0 +1,159 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+   margin:0;
+   color: #f9faf8;
+  
+}
+
+.page1{
+    background-color: #1f2937;
+    margin: 0;
+  padding: 20px;
+  
+
+    
+}
+
+.header{
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+    justify-content: space-between;
+    padding: 0 48px;
+}
+
+.about_text{
+    display: flex;
+    gap: 20px;
+}
+
+.content1{
+    display: flex;
+    gap: 48px;
+    margin-top: 48px;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 48px;
+    
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: space-between;
+   
+}
+
+.right img {
+  /* width: 100%; */
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.left, .right{
+    flex: 1 1 0;
+}
+
+.h_main{
+    font-size: 48px;
+}
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+button{
+    background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  padding: 8px 32px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease;
+ 
+}
+
+.page2{
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+}
+
+.header2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 20px;
+}
+
+.info img {
+  width: 200px;
+  height: 200px;
+object-fit: cover;
+margin-bottom: 10px;
+}
+  
+.page4{
+    display:flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;       /* Essential: parent must take full width */
+  /* Optional: keep your desired reading width */
+  padding: 100px 150px;
+  margin-top: 100px;
+
+}
+
+.author{
+align-self: flex-end;
+font-weight: bold;
+}
+
+.page5{
+
+}
+
+.container4{
+    background-color: #3882F6;
+    margin: 100px 150px;
+    display: flex;
+    padding: 100px 150px;
+    justify-content: space-between;
+
+}
+.call_action{
+    font-size: 20px;
+}
+
+.header4{
+    font-weight: bold;
+}
+
+.footer{
+    background-color: #1F2937;
+    background-color: #1F2937;
+  padding: 32px;
+  text-align: center;
+  color: #E5E7EB;
+  
+  font-size: 14px;
+
+}
